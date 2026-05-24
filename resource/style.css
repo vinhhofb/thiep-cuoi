@@ -1,0 +1,1433 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.80
+*/
+
+body, a, p, body, li, ol, strong, span{
+    font-family: "Roboto", sans-serif;
+}
+.page-template-page-wedding h1, .page-template-page-wedding h2, .page-template-page-wedding h2 strong,
+.page-template-page-wedding2 h1, .page-template-page-wedding2 h2, .page-template-page-wedding2 h2 strong{
+    font-family: "Ephesis", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.page-template-page-wedding h3, .page-template-page-wedding h3 strong,
+.page-template-page-wedding2 h3, .page-template-page-wedding2 h3 strong{
+    font-family: "Marmelad", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+@keyframes zoom {
+    0% {
+        transform: scale(1); /* BÃ¡ÂºÂ¯t Ã„â€˜Ã¡ÂºÂ§u vÃ¡Â»â€ºi kÃƒÂ­ch thÃ†Â°Ã¡Â»â€ºc gÃ¡Â»â€˜c */
+    }
+    50% {
+        transform: scale(1.2); /* PhÃƒÂ³ng to 20% */
+    }
+    100% {
+        transform: scale(1); /* Quay lÃ¡ÂºÂ¡i kÃƒÂ­ch thÃ†Â°Ã¡Â»â€ºc gÃ¡Â»â€˜c */
+    }
+}
+@keyframes zoom1 {
+    0% {
+        transform: scale(1); /* BÃ¡ÂºÂ¯t Ã„â€˜Ã¡ÂºÂ§u vÃ¡Â»â€ºi kÃƒÂ­ch thÃ†Â°Ã¡Â»â€ºc gÃ¡Â»â€˜c */
+    }
+    50% {
+        transform: scale(1.1); /* PhÃƒÂ³ng to 20% */
+    }
+    100% {
+        transform: scale(1); /* Quay lÃ¡ÂºÂ¡i kÃƒÂ­ch thÃ†Â°Ã¡Â»â€ºc gÃ¡Â»â€˜c */
+    }
+}
+
+.page-template-page-wedding header#header, .page-template-page-wedding .display-none-body,
+.page-template-page-wedding2 .display-none-body{
+    display: none;
+}
+.page-template-page-wedding #wrapper {
+    max-width: 520px;
+    margin: 0 auto;
+}
+.page-template-page-wedding {
+    background: #fdfdfd;
+}
+.title-dr1 h2 {
+    color: #ffffff;
+    font-size: 37px;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgb(255 243 243);
+    margin: 0;
+    position: absolute;
+    z-index: 1;
+    top: 16px;
+}
+.saveday-001 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+}
+.saveday-001 h3 {
+    color: #000;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.saveday-001 ul {
+    margin: 0;
+    list-style: none;
+    color: #000;
+    font-weight: 700;
+    border-top: 2px solid #333;
+    padding-top: 12px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    padding: 10px;
+}
+.ss-daure-mau03 .giadinh-mau01 {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: calc(100% - 20px);
+    border: 1px solid #fff;
+}
+
+.ss-daure-mau03 .giadinh-mau01
+    h2 {
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 29px;
+}
+
+.ss-daure-mau03 .giadinh-mau01
+    p {
+    color: #fff;
+    margin-top: 5px;
+}
+
+.ss-daure-mau03 .giadinh-mau01
+    h4 {
+    color: #fff;
+    font-size: 12px;
+}
+
+.lovestory-content03 .col-inner {
+    max-width: 80%;
+    padding: 15px;
+    border: 1px solid;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    text-align: center;
+};
+.saveday-001 ul li {
+    margin: 0;
+    font-weight: 400;
+    text-shadow: 0px 1px 3px rgb(255 243 243);
+}
+.saveday-001 ul li em {
+    font-weight: 200;
+    font-size: 15px;
+}
+.saveday-001 ul li:nth-child(2) {
+    border-bottom: 2px solid #111;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.title-savetheday01 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    animation: zoom1 2s infinite;
+}
+.ss-daure-mau01 .img-inner {
+    border: 5px solid #edd7a6;
+    border-radius: 25px;
+}
+.giadinh-mau01 ul {
+    list-style: none;
+    margin: 0 0 35px;
+}
+.giadinh-mau01 p {
+    margin-bottom: 0;
+    color: #111;
+    font-size: 15px;
+}
+.giadinh-mau01 h2 {
+    color: #795300;
+    font-size: 39px;
+}
+.giadinh-mau01 ul li {
+    margin: 0;
+    color: #333;
+    font-size: 14px;
+}
+.lovestory01 h2 {
+    font-size: 67px;
+    text-shadow: 0px 4px 4px rgb(255 243 243);
+}
+.love-story-gim01 p {
+    margin: 0;
+}
+.lovestory-content01 .col-inner {
+    text-align: center;
+}
+.love-story-gim01 p img {
+    height: 55px;
+    margin-bottom: 0 !important;
+}
+.lovestory-content01 .col.large-12 {
+    max-width: 300px;
+    margin: 0 auto;
+}
+.lovestory-content01 .img {
+    border: 10px solid #f9f9f9;
+    margin-bottom: 0 !important;
+}
+.lovestory-content01 .col-inner > p {
+    margin: 0;
+    background: #f9f9f9;
+    color: #8f6f34;
+    font-style: italic;
+    padding: 7px;
+    margin-top: -1px;
+}
+.lovestory-content01 .col.large-12:nth-child(2n+1) {
+    transform: rotate(-5deg);
+}
+.lovestory-content01 .col.large-12:nth-child(2n+2) {
+    transform: rotate(10deg);
+}
+.row-thiep-01 {
+    border: 2px solid #b79e64;
+    border-radius: 15px;
+}
+.br-top-01 img {
+    max-width: 125px;
+    border-radius: 25px 0 0 0;
+    margin-bottom: -45px  !important;
+}
+.br-bot-01 p {
+    margin-bottom: 0;
+    text-align: right;
+}
+.br-bot-01 p img {
+    max-width: 125px;
+    border-radius: 0 0 25px 0;
+    margin-bottom: 0 !important;
+}
+.row-thiep-01 .content-time h3 {
+    font-size: 23px;
+    color: #bd7b07;
+}
+.text.content-time1 {
+    padding: 0 15px;
+}
+.row-thiep-01 .content-time h3 strong {
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 3px 20px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.row-thiep-01 .content-time p {
+    color: #333;
+    font-size: 13px;
+}
+.page-template-page-wedding .row.row-collapse {
+    max-width: calc(100% - 40px);
+}
+.content-time1 ul {
+    list-style: none;
+    color: #222;
+    font-size: 15px;
+}
+.content-time1 ul h3 {
+    color: #bd7b07;
+    font-size: 21px;
+    margin: 0;
+}
+.content-time1 ul li {
+    margin: 0;
+}
+.row-thiep-01 a.button.primary {
+    margin-bottom: 0;
+    background: #b79e64;
+}
+.row-thiep-01 a.button.primary i {
+    position: absolute;
+    left: 33%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.row-thiep-01 .content-time ul {
+    list-style: none;
+    display: table;
+    width: 100%;
+}
+.row-thiep-01 .content-time ul li {
+}
+.row-thiep-01 .content-time ul li h2 {
+    margin: 0;
+    font-size: 31px;
+    color: #c17b07;
+}
+.row-thiep-01 .content-time ul li:nth-child(1) {
+    text-align: right;
+    width: 50%;
+    padding-right: 42px;
+    padding-left: 0;
+    margin: 0;
+}
+.row-thiep-01 .content-time ul li:last-child {
+    float: right;
+    width: 50%;
+    margin: 0;
+    text-align: left;
+    padding-left: 37px;
+}
+.row-thiep-01 .content-time ul li:nth-child(2) {
+    margin: -16px auto -22px;
+}
+.row-thiep-01 .content-time ul li:nth-child(2) img {
+    max-height: 40px;
+    animation: zoom 2s infinite;
+    width: auto;
+    margin-bottom: 0;
+}
+.page-template-page-wedding  .content-time2 p {
+    color: #c18307;
+    margin-bottom: 7px;
+    font-style: italic;
+}
+.page-template-page-wedding .content-time2 ul {
+    width: 80%;
+    margin-left: 10%;
+    list-style: none;
+    display: table;
+    text-align: center;
+    border-top: 1px solid #555;
+    padding-top: 8px;
+}
+.page-template-page-wedding .content-time2 h4 {
+    font-family: "Ephesis", cursive;
+    font-weight: 400;
+    font-size: 25px;
+    color: #c58c08;
+}
+.page-template-page-wedding .content-time2 ul li {
+    margin: 0;
+    display: table-cell;
+    color: #222;
+    font-size: 13px;
+    position: relative;
+}
+.page-template-page-wedding .content-time2 ul li:after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #b79e64;
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    margin-left: -5px;
+    border-radius: 50px;
+}
+.page-template-page-wedding .xacnhan01 h3 strong {
+    font-size: 32px;
+}
+.page-template-page-wedding .xacnhan01 p {
+    font-size: 14px;
+    margin: 0;
+}
+.page-template-page-wedding .form-xacnhan-01 input, .page-template-page-wedding .form-xacnhan-01 select {
+    border-radius: 50px;
+    background: hsl(38.75deg 29.12% 59.1% / 45%);
+    color: #fff;
+    font-size: 14px;
+}
+.page-template-page-wedding .form-xacnhan-01 input::placeholder {
+    color: #fff;
+}
+.page-template-page-wedding .form-xacnhan-01 form.wpcf7-form {
+    max-width: 300px;
+    margin: 0 auto;
+    font-size: 15px;
+}
+.page-template-page-wedding .form-xacnhan-01 form.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
+    margin: 0;
+    background: #fff;
+    color: #a37d23;
+    font-weight: 500;
+}
+.page-template-page-wedding .form-xacnhan-01 form.wpcf7-form span.wpcf7-spinner {
+    position: absolute;
+}
+.page-template-page-wedding .banner .dark  p {
+    color: #fff;
+    font-size: 14px;
+}
+.page-template-page-wedding .album-01 h2 {
+    font-size: 45px;
+    color: #333;
+    margin-bottom: 0;
+}
+.page-template-page-wedding .album-01 .large-6 {
+    padding-bottom: 0;
+}
+
+
+
+
+
+/*wedding2*/
+.ss1-mau2-popo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.ss1-mau2-popo .img {
+    max-width: 52%;
+    margin: 0px 24% 0;
+    border-radius: 300px;
+    padding: 10px;
+    border: 1px solid;
+    z-index: 9;
+}
+.ss1-mau2-popo .img img {
+    border-radius: 200px;
+}
+
+.ss1-mau2-popo .title-dr1 h2 {
+    position: static;
+    color: #7e7d74;
+    font-weight: 700;
+    font-size: 39px;
+    text-shadow: none;
+    animation: zoom1 2s infinite;
+}
+
+.ss1-mau2-popo .saveday-001 {
+    position: revert-layer;
+    max-width: 270px;
+    margin: 0 auto;
+}
+
+.ss1-mau2-popo .saveday-001 ul {
+    border-top: 1px solid #b9b9b9;
+    padding-top: 5px;
+    color: #69685d;
+}
+
+.ss1-mau2-popo .saveday-001 ul li:nth-child(2) {
+    border-bottom: 1px solid #b9b9b9;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-family: "Marmelad", cursive;
+}
+
+.ss1-mau2-popo .saveday-001 ul li:last-child {
+    font-size: 14px;
+    font-style: italic;
+}
+.ss1-mau2-popo .saveday-001 h3 {
+    text-transform: capitalize;
+    color: #7e7d74;
+    margin-top: 15px;
+}
+.page-template-page-wedding #content {
+    background: url(https://weddingcard.io.vn/templates/wp-content/uploads/2025/05/istockphoto.jpg);
+    background-repeat: repeat-y;
+}
+
+.page-template-page-wedding #content .row-thiep-01 {
+    background: #fff;
+}
+.row-thiep-02 .content-time1 ul {
+    display: table;
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+}
+.row-thiep-02 .content-time1 ul li {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content-time1 ul h3 strong {
+    font-size: 49px;
+}
+
+.row-thiep-02 .content-time1 ul li h3 {
+    font-size: 17px;
+    color: #333;
+    line-height: 1.1;
+}
+
+.row-thiep-02 .content-time1 ul li:nth-child(2) {
+    border-right: 1px solid #999999;
+    border-left: 1px solid #999999;
+}
+
+.row-thiep-02 .content-time1 p {
+    color: #333;
+}
+.lovestory-content02 .love-story-gim01 p img {
+    height: 45px;
+    width: auto;
+}
+.ss1-mau3 .saveday-001 {
+    right: 10%;
+    width: 80%;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    bottom: 35px;
+}
+.ss1-mau3 .saveday-001 h2 strong {
+    font-size: 33px;
+    letter-spacing: 7px;
+    line-height: 1.6;
+}
+.ss1-mau3 .saveday-001 h2 {
+    color: #fff;
+    font-size: 45px;
+    line-height: 1;
+}
+.ss1-mau3 .saveday-001 ul {
+    border-top: 1px solid #fff;
+}
+.ss1-mau3 .saveday-001 ul li {
+    color: #fff;
+}
+.ss1-mau3 .saveday-001 ul li:nth-child(2) {
+    border-bottom: 1px solid #fff;
+}
+.ss-daure-mau03 .giadinh-mau01 {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: calc(100% - 20px);
+    border: 1px solid #fff;
+}
+
+.ss-daure-mau03 .giadinh-mau01 h2 {
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 29px;
+}
+
+.ss-daure-mau03 .giadinh-mau01 p {
+    color: #fff;
+    margin-top: 5px;
+}
+
+.ss-daure-mau03 .giadinh-mau01 h4 {
+    color: #fff;
+    font-size: 12px;
+}
+
+.lovestory-content03 .col-inner {
+    max-width: 80%;
+    padding: 15px;
+    border: 1px solid;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    left: 10%;
+    margin-left: 0 !important;
+}
+.row-thiep-03 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 0;
+    border-width: 1px;
+}
+
+.row-thiep-03 img.attachment-large.size-large {
+    max-width: 80%;
+    margin: 0 10% 20px;
+}
+#toggle-music ul {
+    list-style: none;
+    margin: 0;
+}
+
+#toggle-music ul li:nth-child(1) {
+    margin: 0;
+    border-radius: 100px;
+    background: #e72e5d;
+    width: 45px;
+    text-align: center;
+    height: 45px;
+}
+
+#toggle-music {
+    position: fixed;
+    z-index: 9999;
+    left: 10px;
+    bottom: 30px;
+    cursor: pointer;
+}
+
+#toggle-music ul li svg {
+    width: 25px;
+    fill: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#toggle-music ul li svg.mus2 {
+    opacity: 0;
+}
+#toggle-music.active ul li svg.mus2 {
+    opacity: 1;
+}
+#toggle-music.active ul li svg.mus1 {
+    opacity: 0;
+}
+#toggle-music.active{
+	animation: shake 2s linear infinite;	
+}
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+@keyframes shake {
+    0% { transform: translate(0, 0) rotate(0deg); }
+    25% { transform: translate(1px, -1px) rotate(-1deg); }
+    50% { transform: translate(-1px, 1px) rotate(1deg); }
+    75% { transform: translate(1px, 1px) rotate(-1deg); }
+    100% { transform: translate(-1px, -1px) rotate(1deg); }
+}
+#fix-wedding {
+    position: fixed;
+    right: 5px;
+    bottom: 30px;
+    width: 45px;
+    z-index: 9999;
+}
+#fix-wedding a.button.primary {
+    margin: 10px 0 0;
+    background: #e72e5d;
+    font-size: 17px;
+    width: 42px;
+    text-align: center;
+    line-height: 42px;
+    height: 42px;
+}
+#fix-wedding a.button.primary i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+.back-to-top.active {
+    color: #e72e5d;
+    bottom: 190px;
+    right: 0;
+    border-color: #e72e5d;
+}
+.back-to-top.active:hover {
+    background: #e72e5d;
+    color: #fff;
+    width: 42px;
+    height: 42px;
+}
+
+
+
+
+/* wedding 5 */
+.weddingmau3-vr .popobr {
+    position: absolute;
+    top: 0;
+    mix-blend-mode: screen;
+}
+.mark-vr-codau {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    mix-blend-mode: screen;
+}
+.page-template-page-wedding2 header#header {
+    display: none;
+}
+.weddingmau3-vr {
+    padding: 0 !important;
+}
+.ss2-mau5-01 ul {
+    margin: 0;
+    list-style: none;
+    display: table;
+    width: 100%;
+}
+.ss2-mau5-01 ul li {
+    margin: 0;
+    display: table-cell;
+}
+.ss2-mau5-01 ul li h2 {
+    margin: 0;
+    color: #583228;
+    font-size: 59px;
+    font-weight: 700;
+}
+.title-wedding-05 span {
+    background: transparent !important;
+    color: #b18a7f !important;
+    font-family: "Marmelad", cursive;
+    font-weight: 500 !important;
+	font-size:59px;
+}
+.title-wedding-05 span strong{
+	text-transform: capitalize !important;
+	color:#333;
+    font-weight: 400 !important;
+	font-size:17px !important;
+}
+.title-wedding-05 .ux-timer {
+    max-width: 590px;
+    margin: 0 auto;
+}
+.ss2-mau5-02 h3 {
+    margin-bottom: 0;
+    margin-top: -20px;
+    font-size: 21px;
+}
+
+.ss2-mau5-02 p {
+    margin-bottom: 0;
+    color: #555;
+}
+
+.ss2-mau5-02 p strong {
+    color: #b18a7f;
+    font-weight: 400;
+    font-size: 97%;
+}
+.codau-chure-mau502 .img {
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+.codau-chure-mau5 h2 {
+    color: #333;
+    font-size: 49px;
+    margin-top: -10px;
+}
+
+.codau-chure-mau5 p {
+    font-size: 16px;
+}
+
+.video-wedingcard5 .col-inner {
+    -webkit-box-shadow: 0px 4px 12px rgba(0, 5, 50, 0.15);
+    box-shadow: 0px 4px 12px rgba(0, 5, 50, 0.15);
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.video-wedingcard5 .video-button-wrapper {
+    background: rgb(255 255 255 / 50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-wedingcard5 .video-button-wrapper a.button.open-video {
+    margin: 0;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    color: #a16551;
+    font-size: 35px;
+}
+
+.video-wedingcard5 .video-button-wrapper a.button.open-video i.icon-play {
+    margin-top: 3px;
+}
+.video-wedingcard5 .video-button-wrapper a.button.open-video:hover {
+    background: #d5b496;
+    color: #fff;
+    border-color: #fff;
+}
+.mau5-story {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.mau5-story .img {
+    background: #fff;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 50%;
+    transform: translateX(65px);
+}
+.mau5-story .img img {
+    border-radius: 50%;
+}
+.mau5-story .large-7 .col-inner {
+    border: 1px solid #F3ECE9;
+    padding: 20px;
+    transform: translateX(-50px);
+    width: calc(100% + 50px);
+}
+.mau5-story .large-5 {
+    position: relative;
+    z-index: 2;
+}
+.mau5-story .large-7 .col-inner .text.content-lovestory-mau5 {
+    border: 1px solid #F3ECE9;
+    padding: 20px;
+    padding-left: 250px;
+    color: #505050;
+    font-size: 15px;
+}
+.mau5-story .large-7 .col-inner .text.content-lovestory-mau5 h3 {
+    font-family: "Ephesis", cursive;
+    color: #333;
+    font-size: 39px;
+    margin-bottom: 0;
+}
+.mau5-story .large-7 .col-inner .text.content-lovestory-mau5 h4 {
+    font-family: "Marmelad", cursive;
+    color: #9f7f74;
+    font-weight: 500;
+}
+.mau5-story .large-7 .col-inner .text.content-lovestory-mau5 p {
+    margin-bottom: 5px;
+}
+.lovestory-mau5ssr {
+    padding: 0 !important;
+    margin: -30px 0;
+}
+
+.lovestory-mau5ssr .mau5-story .large-7 .col-inner .text.content-lovestory-mau5 {
+    padding-left: 20px;
+    padding-right: 250px;
+}
+
+.lovestory-mau5ssr .mau5-story .large-7 .col-inner {
+    transform: translateX(50px);
+}
+
+.lovestory-mau5ssr .mau5-story .img {
+    transform: translateX(-65px);
+}
+
+.row-2-mau5 .section-content.relative {
+    display: flex;
+    column-gap: 22px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.form-content01 .col.large-5 {
+    background: #fff;
+    border-radius: 300px 300px 0 0;
+    border: 1px solid #ffe3b5;
+    padding: 20px;
+}
+
+.form-content01 .col.large-5 .col-inner {
+    border: 1px solid #ffe3b5;
+    padding: 20px;
+    border-radius: 300px 300px 0 0;
+}
+.form-xacnhan-05 h2 {
+    font-size: 51px;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+.form-xacnhan-05 input.wpcf7-form-control, .form-xacnhan-05 select {
+    border: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #d1bea1;
+}
+.form-xacnhan-05 input.wpcf7-form-control.wpcf7-submit {
+    background: #c5af8d;
+    font-weight: 500;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.form-xacnhan-05 span.wpcf7-spinner {position: absolute;}
+.form-xacnhan-05 {
+    padding-top: 70px !important;
+    padding-bottom: 50px !important;
+}
+.album-05 h2 {
+    font-size: 53px;
+    text-transform: capitalize;
+}
+.lovestory-mau5 h2 {
+    font-size: 43px;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+.lovestory-mau5 p {
+    font-size: 27px;
+    font-family: "Marmelad", cursive;
+    text-transform: capitalize;
+    margin-top: -10px;
+    margin-bottom: 0;
+}
+
+.lovestory-mau5 {
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.lovestory-mau5:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 320px;
+    height: 1px;
+    content: "";
+    background: #F3E1DB;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.lovestory-mau5:before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    width: 200px;
+    height: 1px;
+    content: "";
+    background: #F3E1DB;
+    left: 50%;
+    transform: translateX(-50%);
+}
+@media(max-width:736px){
+	.title-wedding-05 .ux-timer {
+		transform: scale(0.9);
+	}
+	.ss2-mau5-02 h3 {
+		font-size: 17px;
+	}
+	.ss2-mau5-01 ul li h2 {
+		font-size: 39px;
+		margin-bottom: 20px;
+	}
+	.ss2-mau5-01 ul li:nth-child(1), .ss2-mau5-01 ul li:nth-child(3) {
+		display: none;
+	}
+	.title-wedding-05 .large-12 {
+		padding-bottom: 0 !important;
+	}
+	.mark-vr-codau {
+		max-width: 90%;
+		margin: -1px 5% -1px;
+	}
+	.codau-chure-mau502 .img {
+		max-width: 80%;
+	}
+	.codau-chure-mau5 .box img {
+		max-width: 89%;
+		margin: 0 5.5%;
+		margin-bottom: -5px;
+	}
+	.mau5-story {
+		position: relative;
+		transform: none;
+		left: 0;
+		top: 0;
+	}
+	.lovestory-mau5ss .row.row-collapse {
+		position: absolute;
+	}
+	.mau5-story .img {
+		transform: none;
+		max-width: 65%;
+		margin-top: 55px;
+	}
+	.mau5-story .large-7 .col-inner {
+		width: 90%;
+		transform: none;
+	}
+	.mau5-story .large-7 .col-inner .text.content-lovestory-mau5 {
+		padding-left: 20px;
+		text-align: center;
+	}
+	.mau5-story .large-7 .col-inner .text.content-lovestory-mau5 h3 {
+		font-size: 31px;
+	}
+	.lovestory-mau5ssr .mau5-story .large-7 .col-inner {
+		transform: none;
+	}
+	.lovestory-mau5ssr .mau5-story .large-7 .col-inner .text.content-lovestory-mau5 {
+		padding-right: 20px;
+	}
+	.lovestory-mau5ssr .mau5-story .img {
+		transform: none;
+	}
+	.weddingmau3-vr .popobr {
+		border-bottom: 10px solid #fff;
+	}
+	.row-2-mau5 .section-content.relative {
+		display: inline-block;
+	}
+	.row-2-mau5 .section-content.relative .row-thiep-01 {
+		width: 90%;
+		margin: 0 5% 15px;
+	}
+	.form-xacnhan-05 {
+		padding-top: 30px !important;
+		padding-bottom: 0px !important;
+		margin-top: -30px;
+	}
+	.form-xacnhan-05 .section-content.relative {
+		padding: 0 20px;
+	}
+	.lovestory-mau5ss {
+		padding-bottom: 0 !important;
+		margin-bottom: -20px;
+	}
+}
+
+
+
+/* mau 6 */
+@-webkit-keyframes kenburn {
+	from {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+
+	to {
+		-webkit-transform: scale3d(1.3, 1.3, 1.3);
+		transform: scale3d(1.3, 1.3, 1.3);
+	}
+}
+
+@keyframes kenburn {
+	from {
+		-webkit-transform: scale3d(1, 1, 1);
+		transform: scale3d(1, 1, 1);
+	}
+
+	to {
+		-webkit-transform: scale3d(1.3, 1.3, 1.3);
+		transform: scale3d(1.3, 1.3, 1.3);
+	}
+}
+.weddingmau6-vr .section-content.relative {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.weddingmau6-vr .section-content.relative .box-image {
+    border-radius: 700px;
+}
+
+.weddingmau6-vr .section-content.relative .box-image.image-cover:after {
+    position: absolute;
+    left: 3%;
+    top: 2%;
+    width: 94%;
+    height: 96%;
+    content: "";
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 255px;
+    z-index: 1;
+}
+
+.weddingmau6-vr .section-content.relative .box-image img {
+    -webkit-animation: kenburn 20s 2s alternate infinite;
+    animation: kenburn 20s 2s alternate infinite;
+}
+
+.weddingmau6-vr .section-content.relative .gallery-col:nth-child(2) .box-image img {
+	-webkit-animation: kenburn 30s 2s alternate infinite;
+    animation: kenburn 30s 2s alternate infinite;
+}
+.codau-chure-mau6 {
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    width: 70%;
+}
+
+.codau-chure-mau6 > .col > .col-inner {
+    padding: 55px 30px 39px;
+    -webkit-box-shadow: 0px 2px 10px rgba(0, 3, 77, 0.15);
+    box-shadow: 0px 2px 10px rgba(0, 3, 77, 0.15);
+    position: relative;
+    background: #fff;
+}
+
+.codau-chure-mau6 > .col:nth-child(1) > .col-inner {
+    border-right: 1px solid #E6DDDA;
+}
+
+.codau-chure-mau6 > .col:nth-child(2) > .col-inner {
+    border-left: 1px solid #E5DDDA;
+}
+
+.codau-chure-mau6 .box-image {
+    border-radius: 100%;
+    width: 80%;
+    max-width: 251px;
+    margin-bottom: 10px;
+}
+
+.codau-chure-mau6 p {
+    font-size: 17px;
+}
+
+.layer-mau6 .round-1, .layer-mau6 .round-2, .layer-mau6 .round-3 {
+    position: absolute;
+    left: -11px;
+    top: 15%;
+    width: 20px;
+    height: 20px;
+    background: #E6DDDA;
+    border-radius: 50%;
+    z-index: 11;
+}
+
+.layer-mau6 .round-2 {
+    top: 50%;
+}
+
+.layer-mau6 .round-3 {
+    top: 85%;
+}
+.popo-dare-mau6 > .col {
+    position: absolute;
+    left: -10%;
+    top: 50%;
+    z-index: -13;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 40%;
+}
+
+.popo-dare-mau6 > .col:nth-child(2) {
+    right: -10%;
+    left: auto;
+}
+.layer-mau6 .layer-1, .layer-mau6 .layer-2, .layer-mau6 .layer-3 {
+    position: absolute;
+    left: -10px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    -webkit-box-shadow: 0px 2px 10px rgba(0, 3, 77, 0.15);
+    box-shadow: 0px 2px 10px rgba(0, 3, 77, 0.15);
+    z-index: -1;
+    pointer-events: none;
+}
+
+.codau-chure-mau503 .layer-mau6 .layer-1 {
+    left: auto;
+    right: -10px;
+}
+
+.codau-chure-mau503 .layer-mau6 .layer-2 {
+    left: auto;
+    right: -20px;
+    z-index: -2;
+}
+
+.codau-chure-mau503 .layer-mau6 .layer-3 {
+    left: auto;
+    right: -30px;
+    z-index: -3;
+}
+
+.codau-chure-mau501 .layer-mau6 .layer-2 {
+    left: -20px;
+    z-index: -2;
+}
+
+.codau-chure-mau501 .layer-mau6 .layer-3 {
+    left: -30px;
+    z-index: -3;
+}
+.lovestory-mau6ss .mau5-story {
+    position: relative;
+    transform: none;
+    top: auto;
+    left: auto;
+    right: auto;
+}
+
+.lovestory-mau6ss .mau5-story .img {
+    -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.lovestory-mau6ss .mau5-story .large-7 .col-inner {
+    -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.lovestory-mau6ss .mau5-story .large-7 .col-inner .text.content-lovestory-mau5 {
+    padding-left: 100px;
+}
+
+.lovestory-mau6ss.lovestory-mau5ssr .mau5-story .large-7 .col-inner .text.content-lovestory-mau5 {
+    padding-left: 20px;
+    padding-right: 150px;
+}
+.form-xacnhan-05 .large-5 .img {
+    max-width: 125px;
+}
+.lovestory-mau6ss {
+    padding-bottom: 0 !important;
+    margin-bottom: -70px;
+}
+@media(max-width:736px){
+	.codau-chure-mau6 {
+		width: 90%;
+	}
+	.layer-mau6 .layer-1, .layer-mau6 .layer-2, .layer-mau6 .layer-3 {
+		left: 0 !important;
+		top: -8px;
+	}
+	.codau-chure-mau501 .layer-mau6 .layer-2 {
+		top: -16px;
+	}
+	.codau-chure-mau501 .layer-mau6 .layer-3 {
+		top: -24px;
+	}
+	.codau-chure-mau503 .layer-mau6 .layer-1 {
+		bottom: -8px;
+		top: auto;
+	}
+	.codau-chure-mau503 .layer-mau6 .layer-2 {
+		top: auto;
+		bottom: -16px;
+	}
+	.codau-chure-mau503 .layer-mau6 .layer-3 {
+		top: auto;
+		bottom: -24px;
+	}
+	.codau-chure-mau6 > .col:nth-child(2) > .col-inner {
+		border-left: 0;
+	}
+	.layer-mau6 .round-1 {
+		left: 15%;
+		top: -10px;
+	}
+	.layer-mau6 .round-2 {
+		top: -10px;
+		left: 50%;
+	}
+	.layer-mau6 .round-3 {
+		top: -11px;
+		left: 85%;
+	}
+	.codau-chure-mau5.codau-chure-mau6 .box img {
+		margin: 0 auto;
+		border-radius: 100%;
+		max-width: 100%;
+	}
+	.codau-chure-mau6 .box-image {
+		max-width: 200px;
+	}
+	.lovestory-mau6ss {
+		padding-top: 0 !important;
+	}
+	.lovestory-mau6ss .mau5-story .large-5 {
+		padding-bottom: 0px;
+	}
+	.weddingmau6-vr {
+		margin-top: 25px;
+	}
+	.lovestory-mau6ss .mau5-story .large-7 {
+		transform: translateY(-50px);
+		padding-bottom: 0;
+	}
+	.lovestory-mau6ss .mau5-story .large-7 .col-inner .text.content-lovestory-mau5 {
+		padding-left: 20px;
+		padding-right: 20px !important;
+		padding-top: 45px;
+	}
+}
+
+
+
+/* mau 07 */
+.title-wedding-07 {
+    background: #fff;
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+    max-width: 900px !important;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    z-index: 11;
+    margin-top: -250px;
+}
+
+.title-wedding-07 > .col {
+    border: 1px solid #dbdbdb;
+    padding: 50px;
+}
+
+.title-wedding-07 h2 {
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+
+.title-wedding-07 .ss2-mau7-02 img {
+    max-width: 200px;
+    margin-top: 25px;
+}
+
+.title-wedding-07 span {
+    color: #657150 !important;
+}
+.title-wedding-07 .vr1ha {
+    position: absolute;
+    left: -192px;
+    top: -220px;
+    z-index: 1;
+    max-width: 410px;
+}
+
+.title-wedding-07 .vr2ha {
+    position: absolute;
+    right: -230px;
+    bottom: -170px;
+    max-width: 350px;
+}
+
+.codau-chure-mau7 {
+    margin-top: 70px;
+}
+
+.codau-chure-mau7 .box-image {
+    max-width: 125px;
+    margin-bottom: 10px;
+}
+
+.codau-chure-mau7 p {
+    color: #444;
+    font-size: 15px;
+}
+
+.codau-chure-mau702 .img {
+    max-width: 80%;
+    margin: 0px auto;
+}
+
+.codau-chure-mau702 .img:nth-child(1) {
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 6.1px 3.9px rgba(28, 31, 86, 0.06);
+    box-shadow: 0px 0px 6.1px 3.9px rgba(28, 31, 86, 0.06);
+    background: #fff;
+    border-radius: 50%;
+}
+
+.codau-chure-mau702 .img:nth-child(1) img {
+    border-radius: 100%;
+}
+
+.codau-chure-mau702 .img:nth-child(2) {margin-top: -180px;max-width: 85%;}
+.mau7-story .box-image {
+    max-width: 80%;
+    border-radius: 50%;
+    padding: 16px;
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+.mau7-story .box-image img {
+    border-radius: 50%;
+}
+
+.popolovestory71 {
+    position: absolute;
+    right: -90px;
+    top: -70px;
+    max-width: 300px;
+}
+
+.popolovestory73 {
+    position: absolute;
+    left: -90px;
+    top: -70px;
+    max-width: 300px;
+}
+
+
+.video-wedingcard7 .video-button-wrapper a.button.open-video:hover {
+    background: #7999a7;
+}
+
+.video-wedingcard7 .video-button-wrapper a.button.open-video {
+    color: #51838e;
+}
+
+@media(max-width:736px){
+	.title-wedding-07 {
+		margin-top: 10px;
+		padding: 10px;
+		max-width: calc(100% - 20px) !important;
+	}
+	.title-wedding-07 > .col {
+		padding: 25px 15px 0;
+	}
+	.title-wedding-07 h2 {
+		font-size: 35px;
+	}
+	.title-wedding-05.title-wedding-07 .ux-timer {
+		transform: scale(0.8);
+	}
+	.video-wedingcard5 .video-button-wrapper a.button.open-video {
+	    font-size: 17px;
+	}
+	.title-wedding-07 .vr1ha {
+		max-width: 200px;
+		left: -100px;
+		top: -110px;
+	}
+	.title-wedding-07 .vr2ha {
+		max-width: 200px;
+		right: -125px;
+		bottom: -80px;
+	}
+	.title-wedding-07 .ss2-mau7-02 img {
+		max-width: 100px;
+		margin-top: 7px;
+		margin-bottom: -10px;
+	}
+	.codau-chure-mau7 .box-image {
+		max-width: 100px;
+	}
+	.codau-chure-mau702 {
+		margin-bottom: 45px;
+	}
+	.video-wedingcard5 .col-inner {
+		padding: 15px;
+	}
+	.title-wedding-05.title-wedding-07 .ux-timer span {
+	    font-size: 39px !important;
+	}
+	.video-wedingcard5 .col-inner .img {
+		margin-bottom: 0;
+	}
+}
